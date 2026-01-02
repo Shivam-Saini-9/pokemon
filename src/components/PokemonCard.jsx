@@ -41,7 +41,7 @@ const PokemonCard = ({ pokemon }) => {
                 <span className="text-white/70">{stat.name}</span>
                 <span>{stat.value}</span>
               </div>
-              <div className="w-full h-2 bg-white/10 rounded-full">
+              <div className="w-full h-2 bg-white/10 overflow-hidden rounded-full">
                 <div
                   className="h-2 bg-yellow-400 rounded-full"
                   style={{ width: `${stat.value}%` }}
